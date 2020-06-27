@@ -34,8 +34,16 @@ module.exports = {
                 basePath: `/blog`,
             },
         },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                path: `${__dirname}/content/posts/`,
+                name: `posts`,
+            },
+        },
         'gatsby-plugin-sass',
         'gatsby-plugin-offline',
-        'gatsby-plugin-material-ui'
+        'gatsby-plugin-material-ui',
+        `gatsby-transformer-remark`,
     ],
 }
