@@ -7,7 +7,7 @@ tags: ["Tezos","Blockchain"]
 
 # The Project
 The Goal of this project is to create a Tezo smart contract and deploy onto the
-Ethereum testnet. As the project further develops I will be adding additional
+Tezos testnet. As the project further develops I will be adding additional
 features.
 
 ## How to setup a new VagrantBox fast
